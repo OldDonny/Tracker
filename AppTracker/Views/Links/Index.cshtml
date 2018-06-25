@@ -1,0 +1,60 @@
+﻿
+
+@*@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+<body>
+    <div class="panel">
+        <ul class="nav nav-tabs" id="myTab">
+            <li class="active"><a href="#table1"  data-toggle="tab">Applications</a></li>
+            <li><a href="#table2" data-toggle="tab">Reports</a></li>
+
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active well" id="table1">
+
+                @{
+                    ViewBag.Title = "Index";
+                }
+
+                <h2>Applications</h2>
+
+                <p>
+                    @Html.ActionLink("Create New", "Create")
+                </p>
+                <table class="table" id="mytable1">
+                    @{Html.RenderAction("GetApps", "Links");}
+                </table>                  
+            </div>
+            
+            <div class="tab-pane well" id="table2">
+                @{
+                    ViewBag.Title = "Index";
+                }
+
+
+                <h2>Reports</h2>
+
+                <p>
+                    @Html.ActionLink("Create New", "Create")
+                </p>
+                <table id="mytable2" class="table">
+                    @{Html.RenderAction("GetReports", "Links");}
+
+                </table>
+
+
+            </div>
+
+        </div>
+    </div>
+ 
+
+    
+</body>*@
+
+
+

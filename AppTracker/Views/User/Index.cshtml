@@ -1,0 +1,63 @@
+﻿@model AppTracker.ViewModels.UserIndexViewModel
+
+
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header" style="text-align: center">List of Users</h1>
+        </div>
+    </div>    
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    DataTables Advanced Tables
+                </div>
+                <div class="panel-body">
+                    <table width="100%" class="table table-striped table-bordered table-hover" id="dataTables">
+                        <thead>
+                        <tr>
+                            <th>
+                                BlazerIds
+                            </th>
+                            <th>
+                                Number of Apps
+                            </th>
+                            <th style="width: 50px"></th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+                        @foreach (var item in Model.UserApps)
+                        {
+                            <tr>
+                                <td>
+                                    @item.BlazerId
+                                </td>
+                                <td>
+                                    @item.AppCount
+                                </td>
+                                <td>
+                                    @Html.ActionLink("Edit User", "Edit", new { id = item.BlazerId }, htmlAttributes: new { @class = "btn", style = "color:white; background-color: #A3D55D" })
+                                </td>
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*DataTables*@
+@section scripts
+{
+    <script>
+        $(document).ready(function() {
+            $('#dataTables').DataTable({
+                responsive: true
+            });
+        });
+    </script>
+}

@@ -1,0 +1,23 @@
+﻿
+@using AppTracker.ViewModels
+@using Microsoft.ApplicationInsights.DataContracts
+@model List<AppTracker.ViewModels.AppPartialViewModel>
+
+
+@foreach (var app in Model)
+{
+    <li class="">
+        @Html.ActionLink(
+            app.Name,
+           "singleApp",
+            "Home",
+        
+            new
+            {
+               Id = app.Id
+            }, 
+            null)
+    </li>
+}
+
+@*@Html.DisplayFor(x => dept.DepartmentName)*@

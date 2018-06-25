@@ -1,0 +1,66 @@
+﻿@model IEnumerable<AppTracker.ViewModels.ReportsViewModel>
+
+
+    <thead>
+    
+    
+    <tr>
+      
+        <th>
+            @Html.DisplayNameFor(model => model.ApplicationName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReportName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReportDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductionLink)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReportType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReportGrouping)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+   
+    <tbody>
+    @foreach (var item in Model)
+    {
+       
+        
+        <tr>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.ApplicationName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductionLink)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportGrouping)
+            </td>
+            <td>
+                @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+            </td>
+        </tr>
+
+     
+    }
+    </tbody>
+

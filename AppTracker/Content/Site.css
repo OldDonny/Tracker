@@ -1,0 +1,44 @@
+﻿body {
+    margin-top: 30px;
+}
+/*TODO: Sketchy Fix of the navbar logo need to find a better solution */
+.navbar-header {
+    width: 1000px;
+}
+
+.header-img {
+    width: 30%;
+}
+
+.row {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/*Sorting Color*/
+.sorting_desc, .sorting_asc {
+    color: #1E6B52; 
+}
+
+
+/*Validation Errors*/
+.field-validation-error {
+    color: red;
+}
+
+.input-validation-error {
+    border: 1px solid red !important;
+}
+
+.validation-summary-errors {
+    color: red;
+
+}
+
+/*Remove font color*/
+a.remove-color {
+    color: red;
+}
+
+
+

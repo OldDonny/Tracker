@@ -1,0 +1,73 @@
+﻿@model List<AppTracker.ViewModels.LinkVM>
+
+
+<thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model[0].TypeName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model[0].Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model[0].Production)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model[0].Development)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model[0].Created)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model[0].Modified)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model[0].ProjectName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model[0].DepartmentName)
+        </th>
+        <th></th>
+    </tr>
+</thead>
+
+<tbody>
+    @foreach (var item in Model)
+    {
+     
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TypeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Production)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Development)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Created)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Modified)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProjectName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DepartmentName)
+            </td>
+            <td>
+                @*@Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })*@
+            </td>
+        </tr>
+   
+    }
+    </tbody>
+
+

@@ -1,0 +1,28 @@
+﻿ 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>AppTracker</title>
+        @Styles.Render("~/Content/TemplateStyles")
+        @Styles.Render("~/Content/OurStyles")
+        @Styles.Render("~/Content/dataTablesCss")
+        
+    </head>   
+    <div id="wrapper">
+        @Html.Partial("_SiteHeader")
+    </div>
+    
+    @RenderBody()
+    @Html.Partial("_SiteFooter")
+
+    @Scripts.Render("~/bundles/TemplateScripts")
+    @Scripts.Render("~/bundles/dataTablesJs")
+    @Scripts.Render("~/bundles/jqueryval")
+    @RenderSection("scripts", required: false)
+</html>
+
