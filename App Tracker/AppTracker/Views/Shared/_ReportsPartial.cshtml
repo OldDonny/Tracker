@@ -1,0 +1,62 @@
+﻿@model IEnumerable<AppTracker.ViewModels.ReportsViewModel>
+
+
+    <thead>
+    
+    
+    <tr>
+      
+        <th>
+            @Html.DisplayNameFor(model => model.ApplicationName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReportName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReportDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductionLink)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReportType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReportGrouping)
+        </th>
+
+    </tr>
+    </thead>
+   
+    <tbody>
+    @foreach (var item in Model)
+    {
+       
+        
+        <tr>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.ApplicationName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportDescription)
+            </td>
+            <td>
+             <a hfef="@Html.DisplayFor(modelItem => item.ProductionLink)"> View Report</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportGrouping)
+            </td>
+           
+        </tr>
+
+     
+    }
+    </tbody>
+

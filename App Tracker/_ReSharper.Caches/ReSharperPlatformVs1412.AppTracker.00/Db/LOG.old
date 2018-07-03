@@ -1,0 +1,28 @@
+2018/06/27-09:13:22.071 f5c Recovering log #114
+2018/06/27-09:13:22.076 f5c Level-0 table #142: started
+2018/06/27-09:13:22.139 f5c Level-0 table #142: 1508213 bytes OK
+2018/06/27-09:13:22.186 f5c Delete type=0 #114
+2018/06/27-09:13:22.186 f5c Delete type=3 #47
+2018/06/27-09:13:22.561 17e4 Compacting 1@0 + 0@1 files
+2018/06/27-09:13:22.613 17e4 Generated table #144: 42 keys, 17417 bytes
+2018/06/27-09:13:22.677 17e4 Generated table #145: 251 keys, 1119239 bytes
+2018/06/27-09:13:22.677 17e4 Compacted 1@0 + 0@1 files => 1136656 bytes
+2018/06/27-09:13:22.692 17e4 Delete type=2 #142
+2018/06/27-09:13:22.693 17e4 compacted to: files[ 0 2 38 0 0 0 0 ]
+2018/06/27-09:13:27.173 17e4 Compacting 1@1 + 5@2 files
+2018/06/27-09:13:28.849 17e4 Generated table #146: 2365 keys, 2177136 bytes
+2018/06/27-09:13:29.210 17e4 Generated table #147: 325 keys, 2265795 bytes
+2018/06/27-09:13:29.873 17e4 Generated table #148: 31 keys, 2173394 bytes
+2018/06/27-09:13:30.121 17e4 Generated table #149: 43 keys, 3783888 bytes
+2018/06/27-09:13:30.177 17e4 Generated table #150: 529 keys, 465208 bytes
+2018/06/27-09:13:30.177 17e4 Compacted 1@1 + 5@2 files => 10865421 bytes
+2018/06/27-09:13:30.216 17e4 Delete type=2 #125
+2018/06/27-09:13:30.216 17e4 Delete type=2 #126
+2018/06/27-09:13:30.216 17e4 Delete type=2 #127
+2018/06/27-09:13:30.217 17e4 Delete type=2 #128
+2018/06/27-09:13:30.217 17e4 Delete type=2 #129
+2018/06/27-09:13:30.217 17e4 Delete type=2 #145
+2018/06/27-09:13:30.218 17e4 compacted to: files[ 0 1 38 0 0 0 0 ]
+2018/06/27-09:13:31.987 17e4 Level-0 table #152: started
+2018/06/27-09:13:32.213 17e4 Level-0 table #152: 7563824 bytes OK
+2018/06/27-09:13:32.231 17e4 Delete type=0 #143

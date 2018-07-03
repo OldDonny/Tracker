@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTracker", "AppTracker\AppTracker.csproj", "{C1122169-EC81-4BB5-BC06-4FBAFD20B1A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTracker.DataConnection", "AppTracker.DataConnection\AppTracker.DataConnection.csproj", "{5A2A8088-4F5E-46C0-A76E-308422E50AB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTracker.ServiceLayer", "AppTracker.ServiceLayer\AppTracker.ServiceLayer.csproj", "{B7D10416-A001-41DC-A3FB-7E88BEBF342D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1122169-EC81-4BB5-BC06-4FBAFD20B1A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1122169-EC81-4BB5-BC06-4FBAFD20B1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1122169-EC81-4BB5-BC06-4FBAFD20B1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1122169-EC81-4BB5-BC06-4FBAFD20B1A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2A8088-4F5E-46C0-A76E-308422E50AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2A8088-4F5E-46C0-A76E-308422E50AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2A8088-4F5E-46C0-A76E-308422E50AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2A8088-4F5E-46C0-A76E-308422E50AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D10416-A001-41DC-A3FB-7E88BEBF342D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D10416-A001-41DC-A3FB-7E88BEBF342D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D10416-A001-41DC-A3FB-7E88BEBF342D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D10416-A001-41DC-A3FB-7E88BEBF342D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tucc-src-ctrl.ad.uab.edu:8080/tfs/dcs_tfs2008_projects
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AppTracker\\AppTracker.csproj
+		SccProjectName1 = AppTracker
+		SccLocalPath1 = AppTracker
+		SccProjectUniqueName2 = AppTracker.DataConnection\\AppTracker.DataConnection.csproj
+		SccProjectName2 = AppTracker.DataConnection
+		SccLocalPath2 = AppTracker.DataConnection
+		SccProjectUniqueName3 = AppTracker.ServiceLayer\\AppTracker.ServiceLayer.csproj
+		SccProjectName3 = AppTracker.ServiceLayer
+		SccLocalPath3 = AppTracker.ServiceLayer
+	EndGlobalSection
+EndGlobal

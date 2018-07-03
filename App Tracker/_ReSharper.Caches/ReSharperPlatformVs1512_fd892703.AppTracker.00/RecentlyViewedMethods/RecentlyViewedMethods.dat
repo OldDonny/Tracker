@@ -1,0 +1,26 @@
+﻿<RecentlyViewedMethods>
+  <RecentlyViewedMethods>
+    <RecentMethod id="b7d10416-a001-41dc-a3fb-7e88bebf342d%28AppTracker.ServiceLayer%29-A87E80E0%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AAppTracker.ServiceLayer.Services.UserAppService.appsToRemove%28System.String%2CSystem.Collections.Generic.List%7BSystem.Guid%7D%29" />
+    <RecentMethod id="b7d10416-a001-41dc-a3fb-7e88bebf342d%28AppTracker.ServiceLayer%29-A87E80E0%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AAppTracker.ServiceLayer.Services.UserAppService.appsToRemove%28System.String%2CSystem.Collections.Generic.List%7BSystem.Guid%7D%29" />
+    <RecentMethod id="b7d10416-a001-41dc-a3fb-7e88bebf342d%28AppTracker.ServiceLayer%29-A87E80E0%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AAppTracker.ServiceLayer.Services.UserAppService.appsToRemove%28System.String%2CSystem.Collections.Generic.List%7BSystem.Guid%7D%29" />
+    <RecentMethod id="5a2a8088-4f5e-46c0-a76e-308422e50ab7%28AppTracker.DataConnection%29-B54F322C%5B.NETFramework%2CVersion%3Dv4.5.2%5D/P%3AAppTracker.DataConnection.AppTracker.IMyDbContext.UserRoles" />
+    <RecentMethod id="5a2a8088-4f5e-46c0-a76e-308422e50ab7%28AppTracker.DataConnection%29-B54F322C%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AAppTracker.DataConnection.AppTracker.MyDbContext.%23cctor" />
+    <RecentMethod id="5a2a8088-4f5e-46c0-a76e-308422e50ab7%28AppTracker.DataConnection%29-B54F322C%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AAppTracker.DataConnection.AppTracker.MyDbContext.%23ctor" />
+    <RecentMethod id="5a2a8088-4f5e-46c0-a76e-308422e50ab7%28AppTracker.DataConnection%29-B54F322C%5B.NETFramework%2CVersion%3Dv4.5.2%5D/P%3AAppTracker.DataConnection.AppTracker.MyDbContext.UserRoles" />
+    <RecentMethod id="5a2a8088-4f5e-46c0-a76e-308422e50ab7%28AppTracker.DataConnection%29-B54F322C%5B.NETFramework%2CVersion%3Dv4.5.2%5D/P%3AAppTracker.DataConnection.AppTracker.MyDbContext.UserApps" />
+    <RecentMethod id="5a2a8088-4f5e-46c0-a76e-308422e50ab7%28AppTracker.DataConnection%29-B54F322C%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AAppTracker.DataConnection.AppList.AppListDBContext.%23ctor" />
+    <RecentMethod id="b7d10416-a001-41dc-a3fb-7e88bebf342d%28AppTracker.ServiceLayer%29-A87E80E0%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AAppTracker.ServiceLayer.Services.AppService.GetAllApps" />
+    <RecentMethod id="5a2a8088-4f5e-46c0-a76e-308422e50ab7%28AppTracker.DataConnection%29-B54F322C%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AAppTracker.DataConnection.AppTracker.MyDbContext.CreateModel%28System.Data.Entity.DbModelBuilder%2CSystem.String%29" />
+    <RecentMethod id="c1122169-ec81-4bb5-bc06-4fbafd20b1a1%28AppTracker%29-ADA22A4A-WebAppMainModule%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AAppTracker.Controllers.HomeController.AllReports" />
+    <RecentMethod id="b7d10416-a001-41dc-a3fb-7e88bebf342d%28AppTracker.ServiceLayer%29-A87E80E0%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AAppTracker.ServiceLayer.CommonObjectsService.ApplcationsReportData.GetReportsForApplication%28System.Int32%29" />
+    <RecentMethod id="b7d10416-a001-41dc-a3fb-7e88bebf342d%28AppTracker.ServiceLayer%29-A87E80E0%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AAppTracker.ServiceLayer.Services.OracleConnection.OracleFillService.FillOracle%28System.Int32%29" />
+    <RecentMethod id="b7d10416-a001-41dc-a3fb-7e88bebf342d%28AppTracker.ServiceLayer%29-A87E80E0%5B.NETFramework%2CVersion%3Dv4.5.2%5D/P%3AAppTracker.ServiceLayer.Models.OracleModel.OracleModel.ReportLinkDev" />
+    <RecentMethod id="c1122169-ec81-4bb5-bc06-4fbafd20b1a1%28AppTracker%29-ADA22A4A-%5Bcshtml%5D%20Views%5CShared%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AASP._Page_Views_Shared__ReportsPartial_cshtml.Execute" />
+    <RecentMethod id="c1122169-ec81-4bb5-bc06-4fbafd20b1a1%28AppTracker%29-ADA22A4A-%5Bcshtml%5D%20Views%5CHome%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AASP._Page_Views_Home_singleApp_cshtml.Execute" />
+    <RecentMethod id="c1122169-ec81-4bb5-bc06-4fbafd20b1a1%28AppTracker%29-ADA22A4A-%5Bcshtml%5D%20Views%5CHome%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AASP._Page_Views_Home_Index_cshtml.Execute" />
+    <RecentMethod id="b7d10416-a001-41dc-a3fb-7e88bebf342d%28AppTracker.ServiceLayer%29-A87E80E0%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AAppTracker.ServiceLayer.Services.SQLReportsService.ReturnAllUserReports%28System.String%29" />
+    <RecentMethod id="b7d10416-a001-41dc-a3fb-7e88bebf342d%28AppTracker.ServiceLayer%29-A87E80E0%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AAppTracker.ServiceLayer.Services.SQLReportsService.GetSQLReports%28System.Int32%29" />
+    <RecentMethod id="c1122169-ec81-4bb5-bc06-4fbafd20b1a1%28AppTracker%29-ADA22A4A-WebAppMainModule%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AAppTracker.Controllers.HomeController.ReportsTable%28System.Int32%29" />
+    <RecentMethod id="b7d10416-a001-41dc-a3fb-7e88bebf342d%28AppTracker.ServiceLayer%29-A87E80E0%5B.NETFramework%2CVersion%3Dv4.5.2%5D/M%3AAppTracker.ServiceLayer.Services.AppService.GrabSingleApp%28System.Int32%2CSystem.String%29" />
+  </RecentlyViewedMethods>
+</RecentlyViewedMethods>

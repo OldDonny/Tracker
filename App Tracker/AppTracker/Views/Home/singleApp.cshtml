@@ -1,0 +1,116 @@
+﻿@model AppTracker.ViewModels.AppPartialViewModel
+
+
+<div id="page-wrapper">
+
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading" style="font-size: 2em">
+                Applications and Reports for @Model.Name
+            </div>
+            <ul class="nav nav-tabs" id="myTab">
+                <li class="active"><a href="#appTable" data-toggle="tab">Applications</a></li>
+                <li><a href="#reportsTable" id="showReports" data-toggle="tab">Reports</a></li>
+
+            </ul>
+
+            <div class="tab-content">
+                <div id="appTable" class="tab-pane well active">
+                    <table width="100%" class="table table-striped table-bordered table-hover" id="dataTables-example">
+                        <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Name)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Description)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ProductionUrl)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.TestUrl)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.EndDateTime)
+                            </th>
+                     
+                        </tr>
+                        </thead>
+
+                        <tbody>
+
+
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => modelItem.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => modelItem.Description)
+                            </td>
+                            <td>
+                                <a href="@Html.DisplayFor(modelItem => modelItem.ProductionUrl)"> View Production Application</a>
+
+                            </td>
+                            <td>
+                                <a href="@Html.DisplayFor(modelItem => modelItem.TestUrl)"> View Test Application</a>
+                                </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => modelItem.EndDateTime)
+                            </td>
+                        
+                        </tr>
+
+                        
+                        </tbody>
+                    </table>
+                </div>
+                <div id="reportsTable" class="tab-pane well">
+                    <table width="100%" class="table table-striped table-bordered table-hover" id="Reports">
+                        @{ Html.RenderAction("ReportsTable", "Home"); }
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+@*DataTables*@
+@section scripts
+{
+    <script>
+        $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+            $('#Reports').DataTable({
+                    retrieve: true,
+                    responsive: true,
+
+                })
+                .columns.adjust();
+        });
+
+
+        $('#dataTables-example').DataTable({
+            autoWidth: false,
+            responsive: true
+            //"columns": [
+            //    { "data": "information" },
+            //    {
+            //        "data": "weblink",
+            //        "render": function(data, type, row, meta) {
+            //            if (type === 'ProductionUrl') {
+            //                data = '<a href="' + data + '">' + data + '</a>';
+            //            }
+
+            //            return data;
+            //        }
+            //    }
+            //]
+        });
+
+    </script>
+}
+
