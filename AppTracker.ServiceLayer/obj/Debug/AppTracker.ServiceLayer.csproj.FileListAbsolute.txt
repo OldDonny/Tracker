@@ -26,3 +26,5 @@ C:\Users\rwalk\Source\Workspaces\DCS App Tracker\App Tracker\AppTracker.ServiceL
 C:\Users\rwalk\Source\Workspaces\DCS App Tracker\App Tracker\AppTracker.ServiceLayer\obj\Debug\AppTracker.ServiceLayer.csprojResolveAssemblyReference.cache
 C:\Users\rwalk\Source\Workspaces\DCS App Tracker\App Tracker\AppTracker.ServiceLayer\obj\Debug\AppTracker.ServiceLayer.dll
 C:\Users\rwalk\Source\Workspaces\DCS App Tracker\App Tracker\AppTracker.ServiceLayer\obj\Debug\AppTracker.ServiceLayer.pdb
+C:\Users\rwalk\Source\Repos\tracker\AppTracker.ServiceLayer\obj\Debug\AppTracker.ServiceLayer.csprojResolveAssemblyReference.cache
+C:\Users\rwalk\Source\Repos\tracker\AppTracker.ServiceLayer\obj\Debug\AppTracker.ServiceLayer.csproj.CoreCompileInputs.cache

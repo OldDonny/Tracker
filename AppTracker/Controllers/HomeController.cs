@@ -8,7 +8,7 @@ using System.Data;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Web.Mvc;
-using AppTracker.ServiceLayer.CommonObjectsService;
+
 
 namespace AppTracker.Controllers
 {
@@ -18,56 +18,36 @@ namespace AppTracker.Controllers
 
         private AppService _appService = new AppService();
         private ApplcationsReportData _reportService = new ApplcationsReportData();
-        private OracleConnection _oracleConnection = new OracleConnection();
+        private OracleFillService _oracleService = new OracleFillService();
 
-        // Getting an error when reports table runs
-        // the error is occuring in the GetApplicationsReports SService sating ParamAppId is not the param in spa_GetApplicationsReports
-        // need to get with don and figure this out so I can view the data in the datatable
-
-
-
-        //TODO: get edit user records service working so that it allows you to pass the list of role ids and appids and submits them to the db in the correct order the tyhe role matches the correct appid
-        //TODO: set up session and lof out correcly so that it redirectas to either cas login or to uab.com/it/
-        //TODO: check for lapses in security on login logout and also any random bugs that allow air into the application
-        //TODO: we are handling the list of applications in the backend and may put the list in session state to preserve the variable
-        //TODO: need to add links in the datatable for prod links in apps and reports
         public PartialViewResult ReportsTable(int? Id)
         {
             //reports table will be user to grab specific applications reports (need to write a new service that returns all of the users reports from database)
             List<ReportsViewModel> reportsList = new List<ReportsViewModel>();
 
-            //var apps = _appService.GrabUsersAppIds(User.Identity.Name);90
 
-            //var reports = _reportService.GetDistinctReportsForApplication(Id).Where(x=> apps.Contains(x.ApplicationId));
-
-            var reports = _oracleConnection.GetMatchingReports(119);
-            var tables = reports.Tables;
-
-            return tables.AsEnumerable().ToList().Select(x => new OracleModel
+            var reports = _oracleService.FillOracle(119);
+            foreach (var report in reports)
             {
-                ApplicationId = x.Field<int>("APPLICATION_ID"),
-                ApplicationName = x.Field<string>("APPLICATION_NAME"),
-                ReportName = x.Field<string>("REPORT_NAME"),
-                ReportDescription = x.Field<string>("REPORT_DESCRIPTION"),
-                ReportProdLink = x.Field<string>("REPORT_LINK_PROD"),
-                ReportType = x.Field<string>("REPORT_TYPE"),
-                ReportGrouping = x.Field<string>("REPORT_GROUPING")
-            }).ToList();
-            //foreach (var table in tables)
-            //{
 
-            //    ReportsViewModel vm = new ReportsViewModel();
+                ReportsViewModel vm = new ReportsViewModel();
 
-            //    vm.ApplicationName = 
-            //    vm.ProductionLink = report.ReportProdLink;
-            //    vm.ReportDescription = report.ReportDescription;
-            //    vm.ReportGrouping = report.ReportGrouping;
-            //    vm.ReportName = report.ReportName;
-            //    vm.ReportType = report.ReportType;
-            //    reportsList.Add(vm);
-            //}
-            //return View(reportsList)
+                vm.ApplicationName = report.ApplicationName;
+                vm.ProductionLink = report.ReportProdLink;
+                vm.ReportDescription = report.ReportDescription;
+                vm.ReportGrouping = report.ReportGrouping;
+                vm.ReportName = report.ReportName;
+                vm.ReportType = report.ReportType;
+                reportsList.Add(vm);
+
+            }
+
+
+            return PartialView("_ReportsPartial", reportsList);
+
         }
+
+
 
         public PartialViewResult AllReports()
         {

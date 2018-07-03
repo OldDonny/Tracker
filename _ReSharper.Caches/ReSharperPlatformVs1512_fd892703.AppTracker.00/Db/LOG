@@ -1,0 +1,26 @@
+2018/06/27-10:33:40.250 3cac Recovering log #162
+2018/06/27-10:33:40.250 3cac Level-0 table #173: started
+2018/06/27-10:33:40.281 3cac Level-0 table #173: 539081 bytes OK
+2018/06/27-10:33:40.313 3cac Delete type=0 #162
+2018/06/27-10:33:40.313 3cac Delete type=3 #142
+2018/06/27-10:33:40.656 342c Compacting 1@0 + 1@1 files
+2018/06/27-10:33:40.688 342c Generated table #175: 420 keys, 187087 bytes
+2018/06/27-10:33:40.797 342c Generated table #176: 146 keys, 301296 bytes
+2018/06/27-10:33:40.797 342c Compacted 1@0 + 1@1 files => 488383 bytes
+2018/06/27-10:33:40.844 342c Delete type=2 #164
+2018/06/27-10:33:40.844 342c Delete type=2 #173
+2018/06/27-10:33:40.844 342c compacted to: files[ 0 2 38 0 0 0 0 ]
+2018/06/27-10:33:46.492 342c Compacting 1@1 + 5@2 files
+2018/06/27-10:33:46.563 342c Generated table #177: 1566 keys, 2138952 bytes
+2018/06/27-10:33:46.636 342c Generated table #178: 90 keys, 2249034 bytes
+2018/06/27-10:33:46.708 342c Generated table #179: 19 keys, 2118646 bytes
+2018/06/27-10:33:46.785 342c Generated table #180: 30 keys, 2924680 bytes
+2018/06/27-10:33:46.819 342c Generated table #181: 526 keys, 464854 bytes
+2018/06/27-10:33:46.819 342c Compacted 1@1 + 5@2 files => 9896166 bytes
+2018/06/27-10:33:46.827 342c Delete type=2 #167
+2018/06/27-10:33:46.828 342c Delete type=2 #168
+2018/06/27-10:33:46.828 342c Delete type=2 #169
+2018/06/27-10:33:46.829 342c Delete type=2 #170
+2018/06/27-10:33:46.829 342c Delete type=2 #171
+2018/06/27-10:33:46.830 342c Delete type=2 #176
+2018/06/27-10:33:46.830 342c compacted to: files[ 0 1 38 0 0 0 0 ]

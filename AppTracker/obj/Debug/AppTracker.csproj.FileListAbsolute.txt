@@ -66,3 +66,5 @@ C:\Users\rwalk\Source\Workspaces\DCS App Tracker\App Tracker\AppTracker\bin\Micr
 C:\Users\rwalk\Source\Workspaces\DCS App Tracker\App Tracker\AppTracker\obj\Debug\AppTracker.csprojResolveAssemblyReference.cache
 C:\Users\rwalk\Source\Workspaces\DCS App Tracker\App Tracker\AppTracker\obj\Debug\AppTracker.dll
 C:\Users\rwalk\Source\Workspaces\DCS App Tracker\App Tracker\AppTracker\obj\Debug\AppTracker.pdb
+C:\Users\rwalk\Source\Repos\tracker\AppTracker\obj\Debug\AppTracker.csprojResolveAssemblyReference.cache
+C:\Users\rwalk\Source\Repos\tracker\AppTracker\obj\Debug\AppTracker.csproj.CoreCompileInputs.cache

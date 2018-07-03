@@ -10,3 +10,19 @@ C:\Users\rwalk\Source\Workspaces\DCS App Tracker\App Tracker\AppTracker.DataConn
 C:\Users\rwalk\Source\Workspaces\DCS App Tracker\App Tracker\AppTracker.DataConnection\obj\Debug\AppTracker.DataConnection.pdb
 C:\Users\rwalk\Source\Workspaces\DCS App Tracker\App Tracker\AppTracker.DataConnection\obj\Debug\AppTracker.DataConnection.csprojResolveAssemblyReference.cache
 C:\Users\rwalk\Source\Workspaces\DCS App Tracker\App Tracker\AppTracker.DataConnection\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\rwalk\Source\Repos\tracker\AppTracker.DataConnection\bin\Debug\AppTracker.DataConnection.dll
+C:\Users\rwalk\Source\Repos\tracker\AppTracker.DataConnection\bin\Debug\AppTracker.DataConnection.pdb
+C:\Users\rwalk\Source\Repos\tracker\AppTracker.DataConnection\bin\Debug\EntityFramework.dll
+C:\Users\rwalk\Source\Repos\tracker\AppTracker.DataConnection\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rwalk\Source\Repos\tracker\AppTracker.DataConnection\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rwalk\Source\Repos\tracker\AppTracker.DataConnection\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\rwalk\Source\Repos\tracker\AppTracker.DataConnection\bin\Debug\EntityFramework.xml
+C:\Users\rwalk\Source\Repos\tracker\AppTracker.DataConnection\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rwalk\Source\Repos\tracker\AppTracker.DataConnection\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rwalk\Source\Tracker\DCS App Tracker\App Tracker\AppTracker.DataConnection\bin\Debug\AppTracker.DataConnection.dll
+C:\Users\rwalk\Source\Tracker\DCS App Tracker\App Tracker\AppTracker.DataConnection\bin\Debug\AppTracker.DataConnection.pdb
+C:\Users\rwalk\Source\Repos\tracker\AppTracker.DataConnection\obj\Debug\AppTracker.DataConnection.csprojResolveAssemblyReference.cache
+C:\Users\rwalk\Source\Repos\tracker\AppTracker.DataConnection\obj\Debug\AppTracker.DataConnection.csproj.CoreCompileInputs.cache
+C:\Users\rwalk\Source\Repos\tracker\AppTracker.DataConnection\obj\Debug\AppTracker.DataConnection.csproj.CopyComplete
+C:\Users\rwalk\Source\Repos\tracker\AppTracker.DataConnection\obj\Debug\AppTracker.DataConnection.dll
+C:\Users\rwalk\Source\Repos\tracker\AppTracker.DataConnection\obj\Debug\AppTracker.DataConnection.pdb

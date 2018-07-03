@@ -11,7 +11,7 @@ namespace AppTracker.ServiceLayer.Models.OracleModel
         //Will have to get all the feilds returned from oracle and create a model to accept them, then in oracle service we will grab the report and retrun a model with the data in it.
         //Should be able to return a Oracle model out of the oracle service.
 
-        public int ApplicationId { get; set; }
+        public int? ApplicationId { get; set; }
         public string ApplicationName { get; set; }
         public string ReportName { get; set; }
         public string ReportDescription { get; set; }
